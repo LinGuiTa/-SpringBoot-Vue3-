@@ -1,6 +1,13 @@
 # Maven 编译目录
 target/
+**/target/
 !.gitkeep
+
+# Maven wrapper / local artifacts
+*.class
+*.jar
+*.war
+*.ear
 
 # IDEA 配置
 .idea/
