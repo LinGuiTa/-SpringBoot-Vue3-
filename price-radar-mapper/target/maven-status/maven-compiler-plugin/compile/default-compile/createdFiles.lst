@@ -1,0 +1,11 @@
+com/priceradar/mapper/PriceAlertMapper.class
+com/priceradar/mapper/PriceRecordMapper.class
+com/priceradar/mapper/AdminOperationLogMapper.class
+com/priceradar/mapper/PriceLatestMapper.class
+com/priceradar/mapper/UserFavoriteMapper.class
+com/priceradar/mapper/NotificationMapper.class
+com/priceradar/mapper/ProductMapper.class
+com/priceradar/mapper/PlatformMapper.class
+com/priceradar/mapper/SystemConfigMapper.class
+com/priceradar/mapper/CategoryMapper.class
+com/priceradar/mapper/UserMapper.class

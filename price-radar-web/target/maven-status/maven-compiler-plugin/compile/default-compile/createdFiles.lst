@@ -1,0 +1,12 @@
+com/priceradar/web/controller/CategoryController.class
+com/priceradar/PriceRadarApplication.class
+com/priceradar/web/controller/admin/AdminController.class
+com/priceradar/web/controller/AlertController.class
+com/priceradar/web/controller/ProductController.class
+com/priceradar/web/controller/FavoriteController.class
+com/priceradar/web/controller/AuthController.class
+com/priceradar/web/controller/NotificationController.class
+com/priceradar/web/controller/admin/AdminConfigController.class
+com/priceradar/web/controller/admin/AdminProductController.class
+com/priceradar/web/controller/PriceController.class
+com/priceradar/web/config/CorsConfig.class
