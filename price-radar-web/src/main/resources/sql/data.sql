@@ -28,28 +28,28 @@ INSERT INTO t_category (id, parent_id, name, level, icon, sort_order, status) VA
 -- 3. 商品数据（22条）
 -- ========================================
 INSERT INTO t_product (id, barcode, name, brand, category_id, image_url, description, spec, weight, unit, status) VALUES
-(1, '6901443369584', 'Apple iPhone 15 Pro Max 256GB 黑色钛金属', 'Apple', 4, 'https://via.placeholder.com/300x300?text=iPhone15ProMax', 'A17 Pro芯片，钛金属边框，4800万像素主摄，USB-C接口，支持Action按钮', '屏幕:6.7英寸/存储:256GB/颜色:黑色钛金属', '221g', '台', 1),
-(2, '6941487284030', '华为 Mate 60 Pro 512GB 雅川青', '华为', 4, 'https://via.placeholder.com/300x300?text=HuaweiMate60Pro', '麒麟9000S处理器，卫星通话，一英寸传感器主摄，超强信号覆盖', '屏幕:6.82英寸/存储:512GB/颜色:雅川青', '225g', '台', 1),
-(3, '6934177745836', '小米 14 Pro 256GB 白色', '小米', 4, 'https://via.placeholder.com/300x300?text=Xiaomi14Pro', '骁龙8 Gen3处理器，徕卡光学镜头，超声波指纹，澎湃OS系统', '屏幕:6.73英寸/存储:256GB/颜色:白色', '223g', '台', 1),
-(4, '6942735407059', 'OPPO Find X7 Ultra 512GB 海阔天空', 'OPPO', 4, 'https://via.placeholder.com/300x300?text=OPPOFindX7Ultra', '天玑9300处理器，哈苏人文摄影，双潜望四摄，100W超级闪充', '屏幕:6.82英寸/存储:512GB/颜色:海阔天空', '220g', '台', 1),
-(5, '6974178610028', 'vivo X100 Pro 256GB 钛色', 'vivo', 4, 'https://via.placeholder.com/300x300?text=vivoX100Pro', '天玑9300处理器，蔡司APO超级长焦，自研蓝晶芯片，蓝海电池', '屏幕:6.78英寸/存储:256GB/颜色:钛色', '225g', '台', 1),
-(6, '6901715810025', '荣耀 Magic6 Pro 256GB 黑色', '荣耀', 4, 'https://via.placeholder.com/300x300?text=HonorMagic6Pro', '高通骁龙8 Gen3，鹰眼相机，超曲龙晶屏，5800mAh电池', '屏幕:6.8英寸/存储:256GB/颜色:黑色', '229g', '台', 1),
-(7, '6922255407060', '三星 Galaxy S24 Ultra 256GB 钛黑', '三星', 4, 'https://via.placeholder.com/300x300?text=SamsungS24Ultra', '骁龙8 Gen3处理器，200MP主摄，内置S Pen，Galaxy AI功能', '屏幕:6.8英寸/存储:256GB/颜色:钛黑', '232g', '台', 1),
-(8, '6971544410075', '一加 12 256GB 岩石黑', '一加', 4, 'https://via.placeholder.com/300x300?text=OnePlus12', '骁龙8 Gen3处理器，哈苏相机系统，100W有线+50W无线超级闪充', '屏幕:6.82英寸/存储:256GB/颜色:岩石黑', '220g', '台', 1),
-(9, '6970374982049', '联想小新 Pro 16 2024 AMD版 16GB+512GB', '联想', 5, 'https://via.placeholder.com/300x300?text=LenovoXiaoxinPro16', 'AMD锐龙7 8845H处理器，16英寸2.5K护眼屏，高效散热，长续航', 'CPU:R7 8845H/内存:16GB/硬盘:512GB SSD', '1.75kg', '台', 1),
-(10, '6971653690012', '华为 MateBook X Pro 2024 16GB+1TB', '华为', 5, 'https://via.placeholder.com/300x300?text=HuaweiMateBookXPro', '英特尔酷睿Ultra7处理器，14.2英寸超视网膜屏，一碰互联，轻薄设计', 'CPU:Ultra7 155H/内存:16GB/硬盘:1TB SSD', '1.26kg', '台', 1),
-(11, '6924280909528', '苹果 MacBook Air M3 15英寸 8GB+256GB 星光色', 'Apple', 5, 'https://via.placeholder.com/300x300?text=MacBookAirM3', 'Apple M3芯片，15.3英寸Liquid视网膜显示屏，最长18小时续航', 'CPU:M3/内存:8GB/硬盘:256GB SSD', '1.51kg', '台', 1),
-(12, '6971939880019', 'ASUS 华硕 灵耀 X16 R9 16GB+512GB', '华硕', 5, 'https://via.placeholder.com/300x300?text=AsusZenbookX16', 'AMD锐龙9 8945H处理器，16英寸3.2K OLED屏，高性能创作本', 'CPU:R9 8945H/内存:16GB/硬盘:512GB SSD', '1.69kg', '台', 1),
-(13, '6902083893705', '小米平板 6 Pro 12.4英寸 8GB+256GB', '小米', 6, 'https://via.placeholder.com/300x300?text=MiPad6Pro', '骁龙8 Gen2处理器，12.4英寸2.8K屏，67W快充，四扬声器', '屏幕:12.4英寸/存储:8+256GB/续航:10000mAh', '590g', '台', 1),
-(14, '6925281979701', '华为 MatePad Pro 13.2英寸 12GB+256GB', '华为', 6, 'https://via.placeholder.com/300x300?text=HuaweiMatePadPro', '麒麟9000S处理器，13.2英寸OLED屏，磁吸键盘，多屏协同', '屏幕:13.2英寸OLED/存储:12+256GB', '583g', '台', 1),
-(15, '6970374985033', '海信 65英寸 4K ULED智能电视 E8N', '海信', 7, 'https://via.placeholder.com/300x300?text=HisenseTV65', 'Mini LED背光，4K超高清，VIDAA系统，杜比视界，DTS全景声', '尺寸:65英寸/分辨率:4K/系统:VIDAA', '23kg', '台', 1),
-(16, '6934664400015', '小米电视 75英寸 4K全面屏 S75 MiniLED', '小米', 7, 'https://via.placeholder.com/300x300?text=XiaomiTV75', 'Mini LED屏，4K超高清，MIUI TV，远场语音控制，高刷新率', '尺寸:75英寸/分辨率:4K 120Hz', '35.8kg', '台', 1),
-(17, '6901016008028', '格力 1.5匹 新三级能效 变频空调 KFR-35GW', '格力', 8, 'https://via.placeholder.com/300x300?text=GreeAC15', '变频压缩机，新三级能效，自清洁功能，智能WiFi控制', '制冷量:3500W/能效:三级/匹数:1.5匹', '28kg', '套', 1),
-(18, '6924590502014', '美的 2匹 新一级能效 变频空调 KFR-51LW', '美的', 8, 'https://via.placeholder.com/300x300?text=MideaAC20', '变频压缩机，新一级能效，全直流变频，自清洁，智能控制', '制冷量:5100W/能效:一级/匹数:2匹', '45kg', '套', 1),
-(19, '6901028170068', '农夫山泉 天然矿泉水 550ml 24瓶装', '农夫山泉', 9, 'https://via.placeholder.com/300x300?text=NongFuSpring', '天然矿泉水，弱碱性，富含矿物质，适合日常饮用', '规格:550ml*24瓶/类型:天然矿泉水', '13.2kg', '箱', 1),
-(20, '6923777711206', '可口可乐 零度 330ml 24罐装', '可口可乐', 9, 'https://via.placeholder.com/300x300?text=CocaColaZero', '零糖零卡，经典可乐口味，清爽畅快，聚会必备', '规格:330ml*24罐/糖分:0', '8.4kg', '箱', 1),
-(21, '6925303721879', '乐事 薯片 超值大礼包 640g', '乐事', 10, 'https://via.placeholder.com/300x300?text=LaysBigPack', '多种口味混合装，酥脆可口，聚会零食首选', '规格:640g/口味:混合装', '640g', '袋', 1),
-(22, '6924187800109', '旺旺 雪饼 礼盒装 480g', '旺旺', 10, 'https://via.placeholder.com/300x300?text=WantWantSnack', '经典膨化零食，香脆可口，老少皆宜，节日礼盒装', '规格:480g/口味:原味', '480g', '盒', 1);
+(1, '6901443369584', 'Apple iPhone 15 Pro Max 256GB 黑色钛金属', 'Apple', 4, '/products/1.jpg', 'A17 Pro芯片，钛金属边框，4800万像素主摄，USB-C接口，支持Action按钮', '屏幕:6.7英寸/存储:256GB/颜色:黑色钛金属', '221g', '台', 1),
+(2, '6941487284030', '华为 Mate 60 Pro 512GB 雅川青', '华为', 4, '/products/2.jpg', '麒麟9000S处理器，卫星通话，一英寸传感器主摄，超强信号覆盖', '屏幕:6.82英寸/存储:512GB/颜色:雅川青', '225g', '台', 1),
+(3, '6934177745836', '小米 14 Pro 256GB 白色', '小米', 4, '/products/3.jpg', '骁龙8 Gen3处理器，徕卡光学镜头，超声波指纹，澎湃OS系统', '屏幕:6.73英寸/存储:256GB/颜色:白色', '223g', '台', 1),
+(4, '6942735407059', 'OPPO Find X7 Ultra 512GB 海阔天空', 'OPPO', 4, '/products/4.jpg', '天玑9300处理器，哈苏人文摄影，双潜望四摄，100W超级闪充', '屏幕:6.82英寸/存储:512GB/颜色:海阔天空', '220g', '台', 1),
+(5, '6974178610028', 'vivo X100 Pro 256GB 钛色', 'vivo', 4, '/products/5.jpg', '天玑9300处理器，蔡司APO超级长焦，自研蓝晶芯片，蓝海电池', '屏幕:6.78英寸/存储:256GB/颜色:钛色', '225g', '台', 1),
+(6, '6901715810025', '荣耀 Magic6 Pro 256GB 黑色', '荣耀', 4, '/products/6.jpg', '高通骁龙8 Gen3，鹰眼相机，超曲龙晶屏，5800mAh电池', '屏幕:6.8英寸/存储:256GB/颜色:黑色', '229g', '台', 1),
+(7, '6922255407060', '三星 Galaxy S24 Ultra 256GB 钛黑', '三星', 4, '/products/7.jpg', '骁龙8 Gen3处理器，200MP主摄，内置S Pen，Galaxy AI功能', '屏幕:6.8英寸/存储:256GB/颜色:钛黑', '232g', '台', 1),
+(8, '6971544410075', '一加 12 256GB 岩石黑', '一加', 4, '/products/8.jpg', '骁龙8 Gen3处理器，哈苏相机系统，100W有线+50W无线超级闪充', '屏幕:6.82英寸/存储:256GB/颜色:岩石黑', '220g', '台', 1),
+(9, '6970374982049', '联想小新 Pro 16 2024 AMD版 16GB+512GB', '联想', 5, '/products/9.jpg', 'AMD锐龙7 8845H处理器，16英寸2.5K护眼屏，高效散热，长续航', 'CPU:R7 8845H/内存:16GB/硬盘:512GB SSD', '1.75kg', '台', 1),
+(10, '6971653690012', '华为 MateBook X Pro 2024 16GB+1TB', '华为', 5, '/products/10.jpg', '英特尔酷睿Ultra7处理器，14.2英寸超视网膜屏，一碰互联，轻薄设计', 'CPU:Ultra7 155H/内存:16GB/硬盘:1TB SSD', '1.26kg', '台', 1),
+(11, '6924280909528', '苹果 MacBook Air M3 15英寸 8GB+256GB 星光色', 'Apple', 5, '/products/11.jpg', 'Apple M3芯片，15.3英寸Liquid视网膜显示屏，最长18小时续航', 'CPU:M3/内存:8GB/硬盘:256GB SSD', '1.51kg', '台', 1),
+(12, '6971939880019', 'ASUS 华硕 灵耀 X16 R9 16GB+512GB', '华硕', 5, '/products/12.jpg', 'AMD锐龙9 8945H处理器，16英寸3.2K OLED屏，高性能创作本', 'CPU:R9 8945H/内存:16GB/硬盘:512GB SSD', '1.69kg', '台', 1),
+(13, '6902083893705', '小米平板 6 Pro 12.4英寸 8GB+256GB', '小米', 6, '/products/13.jpg', '骁龙8 Gen2处理器，12.4英寸2.8K屏，67W快充，四扬声器', '屏幕:12.4英寸/存储:8+256GB/续航:10000mAh', '590g', '台', 1),
+(14, '6925281979701', '华为 MatePad Pro 13.2英寸 12GB+256GB', '华为', 6, '/products/14.jpg', '麒麟9000S处理器，13.2英寸OLED屏，磁吸键盘，多屏协同', '屏幕:13.2英寸OLED/存储:12+256GB', '583g', '台', 1),
+(15, '6970374985033', '海信 65英寸 4K ULED智能电视 E8N', '海信', 7, '/products/15.jpg', 'Mini LED背光，4K超高清，VIDAA系统，杜比视界，DTS全景声', '尺寸:65英寸/分辨率:4K/系统:VIDAA', '23kg', '台', 1),
+(16, '6934664400015', '小米电视 75英寸 4K全面屏 S75 MiniLED', '小米', 7, '/products/16.jpg', 'Mini LED屏，4K超高清，MIUI TV，远场语音控制，高刷新率', '尺寸:75英寸/分辨率:4K 120Hz', '35.8kg', '台', 1),
+(17, '6901016008028', '格力 1.5匹 新三级能效 变频空调 KFR-35GW', '格力', 8, '/products/17.jpg', '变频压缩机，新三级能效，自清洁功能，智能WiFi控制', '制冷量:3500W/能效:三级/匹数:1.5匹', '28kg', '套', 1),
+(18, '6924590502014', '美的 2匹 新一级能效 变频空调 KFR-51LW', '美的', 8, '/products/18.jpg', '变频压缩机，新一级能效，全直流变频，自清洁，智能控制', '制冷量:5100W/能效:一级/匹数:2匹', '45kg', '套', 1),
+(19, '6901028170068', '农夫山泉 天然矿泉水 550ml 24瓶装', '农夫山泉', 9, '/products/19.jpg', '天然矿泉水，弱碱性，富含矿物质，适合日常饮用', '规格:550ml*24瓶/类型:天然矿泉水', '13.2kg', '箱', 1),
+(20, '6923777711206', '可口可乐 零度 330ml 24罐装', '可口可乐', 9, '/products/20.jpg', '零糖零卡，经典可乐口味，清爽畅快，聚会必备', '规格:330ml*24罐/糖分:0', '8.4kg', '箱', 1),
+(21, '6925303721879', '乐事 薯片 超值大礼包 640g', '乐事', 10, '/products/21.jpg', '多种口味混合装，酥脆可口，聚会零食首选', '规格:640g/口味:混合装', '640g', '袋', 1),
+(22, '6924187800109', '旺旺 雪饼 礼盒装 480g', '旺旺', 10, '/products/22.jpg', '经典膨化零食，香脆可口，老少皆宜，节日礼盒装', '规格:480g/口味:原味', '480g', '盒', 1);
 
 -- ========================================
 -- 4. 商品平台映射（前10商品 x 4平台 = 40条）
@@ -632,8 +632,8 @@ INSERT INTO t_price_latest (product_id, platform_id, price, original_price, disc
 -- 7. 初始用户数据（密码：admin123456 的BCrypt加密）
 -- ========================================
 INSERT INTO t_user (username, password, email, role, status) VALUES
-('admin', '$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iAt6Z5EHsM8lE9lBpwMElHjMcGrS', 'admin@priceradar.com', 'ADMIN', 1),
-('testuser', '$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iAt6Z5EHsM8lE9lBpwMElHjMcGrS', 'test@priceradar.com', 'USER', 1);
+('admin', '$2y$10$Z6RbJByXQi2Lnuwq2//CRe1vRsl0.NDxqMl4BcXWO/P/zOYzW0OAO', 'admin@priceradar.com', 'ADMIN', 1),
+('testuser', '$2y$10$Z6RbJByXQi2Lnuwq2//CRe1vRsl0.NDxqMl4BcXWO/P/zOYzW0OAO', 'test@priceradar.com', 'USER', 1);
 
 -- ========================================
 -- 8. 系统配置（6条）
@@ -645,4 +645,3 @@ INSERT INTO t_system_config (config_key, config_value, description) VALUES
 ('hot_product_limit', '10', '热门商品展示数量'),
 ('login_fail_max', '5', '最大登录失败次数'),
 ('login_lock_minutes', '15', '登录锁定时长（分钟）');
-

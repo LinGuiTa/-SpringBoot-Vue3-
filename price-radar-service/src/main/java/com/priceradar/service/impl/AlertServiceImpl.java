@@ -48,7 +48,7 @@ public class AlertServiceImpl implements AlertService {
         alert.setPlatformId(dto.getPlatformId());
         alert.setTargetPrice(dto.getTargetPrice());
         alert.setAlertType(dto.getAlertType() != null ? dto.getAlertType() : "ONCE");
-        alert.setStatus("ACTIVE");
+        alert.setAlertStatus("ACTIVE");
         priceAlertMapper.insert(alert);
     }
 
@@ -126,7 +126,7 @@ public class AlertServiceImpl implements AlertService {
                     if ("ONCE".equals(alert.getAlertType())) {
                         PriceAlert update = new PriceAlert();
                         update.setId(alert.getId());
-                        update.setStatus("TRIGGERED");
+                        update.setAlertStatus("TRIGGERED");
                         update.setTriggeredAt(LocalDateTime.now());
                         priceAlertMapper.updateById(update);
                     }
